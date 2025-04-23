@@ -1,0 +1,118 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    position: sticky;
+    top: 0;
+}
+ul{list-style: none;}
+.brand img{
+    width: 60px;
+    padding: 0 8px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    height: 65px;
+    background: black;
+    color: white;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+    min-height: 70vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 25px;
+    background: url('https://th.bing.com/th/id/OIP.m77gKQCG-_wU_-beqWQ8vwHaEo?pid=ImgDet&w=474&h=296&rs=1');
+}
+.bottom
+{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 20px;
+}
+.icon i
+{
+    cursor: pointer;
+}
+.songItem img{
+    width: 40px;
+    margin: 0 15px;
+    border-radius: 20px;
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.time{
+    margin: 0 20px;
+    align-items: center;
+}
+.time i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 20px;
+}
+.songInfo{
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.bi-play-circle{
+    font-size: 25px;
+}
+.bi-fast-forward-circle{
+    font-size: 25px;
+}
+.bi-skip-backward-circle{
+    font-size: 25px;
+}
+.bi.bi-pause-circle{
+    font-size: 25px;
+}
